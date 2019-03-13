@@ -10,6 +10,8 @@
   }
 
   .container {
+    min-height: calc(100vh - 300px);
+
     &::after {
       position: absolute;
       left: 10px;
