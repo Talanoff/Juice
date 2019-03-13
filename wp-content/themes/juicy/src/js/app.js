@@ -41,7 +41,7 @@ window.$ = require('jquery');
     if ($elems.length) {
       return $elems.some(function ($el) {
         $el = $($el);
-        return offset >= $el.offset().top - windowHeight * 0.2 && offset < $el.offset().top + $el.innerHeight() * 0.85;
+        return offset >= $el.offset().top - windowHeight * 0.2 && offset < $el.offset().top + $el.innerHeight() * 0.8;
       });
     }
   };
