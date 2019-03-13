@@ -846,7 +846,7 @@ module.exports = {
     float: false,
     fonts: ['responsive'],
     fontWeights: ['responsive', 'hover', 'focus'],
-    height: false,
+    height: ['responsive'],
     leading: ['responsive'],
     lists: false,
     margin: ['responsive'],

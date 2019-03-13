@@ -19,8 +19,8 @@
     </div>
 
     <div class="shapes">
-        <img src="<?php echo get_theme_file_uri('images/shape-grey.svg') ?>" class="w-full" alt="">
-        <img src="<?php echo get_theme_file_uri('images/shape-pink.svg') ?>" class="w-full" alt="">
-        <img src="<?php echo get_theme_file_uri('images/shape-black.svg') ?>" class="w-full" alt="">
+        <img src="<?php echo get_theme_file_uri('images/shape-grey.svg') ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('images/shape-pink.svg') ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('images/shape-black.svg') ?>" alt="">
     </div>
 </section>
