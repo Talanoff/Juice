@@ -1,0 +1,15 @@
+.additional {
+  @apply absolute pin-l uppercase text-sm;
+
+  &--bottom {
+    transform-origin: left top 0;
+    transform: rotate(-90deg);
+    bottom: 0;
+  }
+
+  &--top {
+    transform-origin: left top 0;
+    transform: rotate(-90deg) translateX(-100%);
+    top: 0;
+  }
+}

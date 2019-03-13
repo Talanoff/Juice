@@ -1,0 +1,11 @@
+.container {
+  @apply mx-auto;
+}
+
+.container--left-offset {
+  @apply pl-12 pr-2;
+
+  @screen lg {
+    @apply pl-24 pr-2;
+  }
+}

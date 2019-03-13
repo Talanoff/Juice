@@ -1,0 +1,33 @@
+#app-header {
+  @apply fixed pin-x pin-t z-50;
+  transition: 0.35s;
+
+  .nav-container {
+    @apply items-end;
+    transition: 0.35s;
+  }
+
+  #nav a {
+    @apply mt-8;
+
+    &::before {
+      @apply -mt-8;
+    }
+  }
+
+  &.is-fixed {
+    @apply bg-black;
+
+    .nav-container {
+      @apply items-center;
+    }
+
+    #nav a {
+      @apply my-4;
+
+      &::before {
+        @apply -mt-4;
+      }
+    }
+  }
+}

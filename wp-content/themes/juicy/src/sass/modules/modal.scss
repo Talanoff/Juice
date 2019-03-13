@@ -1,0 +1,36 @@
+.modal {
+  @apply fixed pin;
+  z-index: 100;
+  transform: translateY(-100%);
+  transition: 0.5s;
+
+  &.is-open {
+    transform: translateY(0);
+    .modal-outer {
+      opacity: 0.5;
+    }
+  }
+
+  .modal-outer {
+    @apply absolute pin bg-black opacity-0;
+    transition: 0.5s;
+  }
+
+  .modal-body {
+    @apply absolute max-w-sm m-auto bg-white overflow-y-auto p-4;
+    left: 1.25rem;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 90%;
+
+    .wpcf7-response-output {
+      @apply text-center p-4;
+    }
+
+    .wpcf7-mail-sent-ok {
+      @apply text-white border-0;
+      background-color: #38c172;
+    }
+  }
+}

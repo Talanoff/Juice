@@ -1,0 +1,13 @@
+.shapes {
+  position: relative;
+  z-index: -1;
+  padding-top: 20vw;
+
+  img {
+    position: absolute;
+    bottom: 0;
+    left: -1%;
+    right: -1%;
+    max-width: 102%;
+  }
+}

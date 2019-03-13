@@ -1,0 +1,44 @@
+* {
+  outline: none !important;
+}
+
+body {
+  @apply font-sans text-grey-darkest leading-normal overflow-x-hidden;
+}
+
+section {
+  @apply relative py-20;
+}
+
+p {
+  @apply mb-6;
+
+  &:last-child {
+    @apply mb-0;
+  }
+}
+
+a {
+  @apply no-underline text-grey-darkest;
+  transition: 0.35s;
+
+  &:hover {
+    @apply text-black;
+  }
+}
+
+.has-content {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    li {
+      padding-left: 20px;
+      @apply relative mb-3;
+
+      &::before {
+        @apply absolute pin-t pin-l text-pink text-2xl -mt-2;
+        content: '\2022';
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.client {
+  position: relative;
+  padding-top: 324 / 620 * 100%;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    @apply absolute pin-x pin-y bg-black opacity-75;
+    transition: 1s;
+  }
+
+  figure {
+    @apply absolute pin-x pin-y bg-center bg-cover bg-no-repeat;
+    z-index: -1;
+    transition: 1s;
+  }
+
+  img {
+    @apply absolute pin-x pin-y m-auto z-10;
+    max-width: 80%;
+    max-height: 50px;
+  }
+
+  &:hover {
+    figure {
+      transform: rotate(-2deg) scale(1.05);
+      transition: 2s;
+    }
+
+    &::before {
+      background-color: #ea4139;
+      transition: 2s;
+    }
+  }
+}

@@ -1,0 +1,100 @@
+#nav {
+  @apply fixed pin bg-black flex flex-col justify-center;
+  transform: translateY(-100%);
+  transition: 0.5s;
+
+  &.is-open {
+    transform: translateY(0);
+  }
+
+  @screen lg {
+    @apply static bg-transparent ml-auto flex-row;
+    transform: translateY(0);
+  }
+
+  a {
+    @apply block text-white relative ml-16;
+
+    &:hover {
+      @apply text-pink;
+    }
+
+    &::before {
+      @apply absolute pin-t pin-l bg-pink ;
+      width: 0;
+      height: 4px;
+      content: '';
+      transition: 0.5s;
+    }
+
+    &.is-active {
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#toggle {
+  @apply relative ml-auto z-50;
+  height: 40px;
+  width: 30px;
+
+  @screen lg {
+    display: none;
+  }
+
+  span {
+    &, &::before, &::after {
+      @apply absolute bg-white;
+      width: 30px;
+      height: 2px;
+      content: '';
+      margin-top: -1px;
+      left: 0;
+      transition: 0.35s;
+    }
+
+    & {
+      top: 50%;
+
+      &::before {
+        top: -7px;
+      }
+
+      &::after {
+        top: 9px;
+      }
+    }
+  }
+
+  &.is-open {
+    span {
+      & {
+        background-color: transparent;
+      }
+
+      &::before {
+        top: 50%;
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        top: 50%;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+#close {
+  @extend #toggle !optional;
+  @apply mb-2 -mt-2;
+  display: block;
+
+  span {
+    &, &::before, &::after {
+      @apply bg-black;
+    }
+  }
+}

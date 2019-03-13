@@ -1,0 +1,8 @@
+.button {
+  @apply bg-pink text-white px-10 py-6;
+  transition: 0.35s;
+
+  &:hover {
+    @apply bg-pink-dark;
+  }
+}
