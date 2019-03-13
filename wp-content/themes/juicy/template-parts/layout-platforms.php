@@ -11,10 +11,10 @@
                 </div>
 
                 <div class="px-8 flex-1">
-                    <div class="flex flex-wrap -mx-8 -mb-4">
+                    <div class="flex flex-wrap -mx-4 md:-mx-8 -mb-4">
 						<?php while (have_rows('partners_logos')) : the_row(); ?>
 
-                            <div class="px-8 w-1/2 lg:w-1/3 mb-4">
+                            <div class="px-4 md:px-8 w-1/2 lg:w-1/3 mb-4">
                                 <img src="<?php the_sub_field('logo') ?>" alt="">
                             </div>
 
