@@ -1,0 +1,10 @@
+#about {
+  position: relative;
+
+  &::before {
+    @apply absolute pin-x pin-t bg-grey-lightest;
+    content: '';
+    height: 75%;
+    z-index: -1;
+  }
+}

@@ -1,4 +1,4 @@
-<section class="py-0" data-anchor="#about">
+<section class="pb-0" data-anchor="#about">
     <div class="container px-2">
         <h2 class="text-4xl text-black mb-6"><?php the_field('bakehouse_title') ?></h2>
 

@@ -24,7 +24,7 @@
     </div>
 </section>
 
-<section class="pt-0 lg:text-2xl" data-anchor="#about">
+<section class="pt-0 lg:pb-48 lg:text-2xl relative z-10" data-anchor="#about">
     <div class="container px-2">
         <div class="flex flex-wrap -mx-20 xl:-mx-24">
             <div class="px-20 xl:px-24 md:w-1/2 -mt-48">

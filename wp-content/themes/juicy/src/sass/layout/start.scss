@@ -2,10 +2,9 @@
   padding: 120px 0 180px;
 
   &::after {
-    @apply absolute pin-l pin-b;
+    @apply absolute pin-l pin-b bg-grey-lightest;
     width: 75%;
     height: 90px;
-    background-color: #fff;
     content: '';
   }
 
