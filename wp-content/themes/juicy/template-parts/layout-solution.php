@@ -20,14 +20,14 @@
 			<?php endif; ?>
 
 			<?php if (get_field('solution_column_1')) : ?>
-                <div class="px-8 md:flex-1">
+                <div class="px-8 md:flex-1 opacity-80">
 					<?php the_field('solution_column_1') ?>
                 </div>
 			<?php endif; ?>
 
-			<?php if (get_field('solution_column_1')) : ?>
-                <div class="px-8 md:flex-1">
-					<?php the_field('solution_column_1') ?>
+			<?php if (get_field('solution_column_2')) : ?>
+                <div class="px-8 md:flex-1 opacity-80">
+					<?php the_field('solution_column_2') ?>
                 </div>
 			<?php endif; ?>
         </div>
@@ -45,6 +45,6 @@
 
 <section class="py-4" data-anchor="#about">
     <div class="container text-center">
-        <h2 class="text-xl lg:text-3xl"><?php the_field('solution_after_section') ?></h2>
+        <h2 class="text-3xl lg:text-6xl text-black"><?php the_field('solution_after_section') ?></h2>
     </div>
 </section>

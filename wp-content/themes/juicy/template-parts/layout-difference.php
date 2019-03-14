@@ -1,7 +1,7 @@
 <section class="pb-0 relative z-10" data-anchor="#about">
     <div class="container px-2 text-center">
         <p class="opacity-50 text-sm mb-2 font-bold"><?php the_field('diff_small_title') ?></p>
-        <h2 class="text-4xl lg:text-6xl text-black"><?php the_field('diff_title') ?></h2>
+        <h2 class="text-4xl lg:text-7xl text-black"><?php the_field('diff_title') ?></h2>
     </div>
 </section>
 
@@ -27,7 +27,7 @@
 <section data-anchor="#about">
     <div class="container px-2">
         <div class="flex flex-wrap">
-            <div class="md:w-3/5 md:pl-24 ml-auto">
+            <div class="lg:w-3/5 lg:pl-24 ml-auto">
                 <h3 class="text-3xl lg:text-5xl font-normal"><?php the_field('diff_subtitle') ?></h3>
 
 				<?php if (have_rows('diff_items')) : ?>

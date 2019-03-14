@@ -13,13 +13,14 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header id="app-header" class="py-3 lg:py-0">
+<header id="app-header" class="py-3">
     <div class="container px-2">
-        <div class="flex nav-container">
+        <div class="flex items-center">
             <a href="#start">
                 <img src="<?php echo get_theme_file_uri('images/juice-logo--white.png') ?>" alt="JUICE">
             </a>
 
+            <!--
             <div id="toggle">
                 <span></span>
             </div>
@@ -32,6 +33,9 @@
                 <a href="#services">Services</a>
                 <a href="#contacts">Contacts</a>
             </nav>
+            -->
+
+            <a class="ml-auto bg-pink hover:bg-pink-dark text-white hover:text-white py-3 px-4" href="#contacts">Contacts</a>
         </div>
     </div>
 </header>

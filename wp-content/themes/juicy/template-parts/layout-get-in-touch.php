@@ -2,7 +2,7 @@
 	<div class="container px-2 text-center">
 		<p class="opacity-50 text-sm mb-2 font-bold"><?php the_field('touch_small_title') ?></p>
 		<h2 class="text-4xl text-black max-w-md mx-auto leading-tight"><?php the_field('touch_title') ?></h2>
-		<div class="mt-12">
+		<div class="mt-12 mb-8">
 			<button class="button" data-modal>Let's Grow</button>
 		</div>
 	</div>

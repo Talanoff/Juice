@@ -1,6 +1,8 @@
 <section class="bg-grey-lightest has-content pb-48" data-anchor="#about">
     <div class="container container--left-offset px-2">
-        <h2 class="text-3xl text-black font-normal mb-8 leading-tight"><?php the_field('myself_title') ?></h2>
+        <h2 class="text-3xl text-black font-normal mb-8 max-w-mld leading-tight">
+            <?php the_field('myself_title') ?>
+        </h2>
 
         <div class="flex flex-wrap -ml-12">
             <div class="pl-12 w-full lg:w-1/4">
@@ -39,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="px-20 xl:px-24 md:w-1/2">
+            <div class="px-20 xl:px-24 md:w-1/2 lg:mt-20">
 				<?php if (get_field('problem_2_image')) : ?>
                     <div class="mb-6 mt-8 md:mt-0 md:border-20 border-white">
                         <img src="<?php the_field('problem_2_image') ?>" class="block" alt="">
@@ -52,7 +54,7 @@
             </div>
         </div>
 
-        <div class="mt-8 font-bold text-3xl text-black">
+        <div class="mt-8 font-bold text-4xl">
             <?php the_field('myself_conclusion') ?>
         </div>
     </div>

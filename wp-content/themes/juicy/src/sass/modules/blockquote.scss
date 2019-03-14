@@ -4,12 +4,16 @@
   &::before {
     position: absolute;
     top: 4px;
-    left: -52px;
+    left: -40px;
     content: '';
     background-image: url("../images/quote.svg");
     background-size: 100%;
     width: 32px;
     height: 29px;
+
+    @screen md {
+      left: -52px;
+    }
   }
 
   &--small {

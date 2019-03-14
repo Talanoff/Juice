@@ -11,7 +11,7 @@
 				wp_nav_menu([
 					'menu' => 'menu-social',
 					'container' => 'nav',
-					'container_class' => 'flex justify-around text-lg',
+					'container_class' => 'flex justify-around text-lg opacity-80',
 					'items_wrap' => '%3$s',
 					'walker' => new SocialWalkerNavMenu(),
 				]);
