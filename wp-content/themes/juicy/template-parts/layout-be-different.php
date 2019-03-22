@@ -9,9 +9,9 @@
 
 			<?php if (have_rows('different_items')) : ?>
                 <div class="w-full lg:w-2/3 pl-12">
-                    <div class="flex flex-wrap -ml-12">
+                    <div class="flex flex-wrap -mx-12 lg:-mx-24 leading-loose">
 						<?php while (have_rows('different_items')) : the_row(); ?>
-                            <div class="pl-12 xl:pr-24 w-full md:w-1/2 mb-4 md:mb-0">
+                            <div class="px-12 lg:px-24 w-full md:w-1/2 mb-4 md:mb-0">
 								<?php the_sub_field('content'); ?>
                             </div>
 						<?php endwhile; ?>

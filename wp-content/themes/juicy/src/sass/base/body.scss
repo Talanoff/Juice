@@ -4,6 +4,8 @@
 
 body {
   @apply font-sans text-grey-darkest leading-normal overflow-x-hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 section {

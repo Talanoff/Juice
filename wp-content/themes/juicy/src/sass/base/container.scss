@@ -1,5 +1,13 @@
 .container {
   @apply mx-auto;
+
+  @screen sm {
+    max-width: 90%;
+  }
+
+  @screen xl {
+    max-width: 1590px;
+  }
 }
 
 .container--left-offset {

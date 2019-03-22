@@ -5,22 +5,16 @@
         <h4 class="text-lg lg:text-2xl max-w-md leading-normal font-normal"><?php the_field('platforms_subtitle') ?></h4>
 
 		<?php if (have_rows('partners_logos')) : ?>
-            <div class="flex flex-wrap -mx-8 -mb-4 mt-8">
-                <div class="px-8 mb-4 w-full md:w-1/3">
-                    <h5 class="text-2xl"><?php the_field('partners_intro') ?></h5>
-                </div>
+            <h5 class="text-2xl my-8"><?php the_field('partners_intro') ?></h5>
 
-                <div class="px-8 flex-1">
-                    <div class="flex flex-wrap -mx-4 md:-mx-8 -mb-4">
-						<?php while (have_rows('partners_logos')) : the_row(); ?>
+            <div class="flex flex-wrap -mx-4 md:-mx-8 -mb-4">
+				<?php while (have_rows('partners_logos')) : the_row(); ?>
 
-                            <div class="px-4 md:px-8 w-1/2 lg:w-1/3 mb-4">
-                                <img src="<?php the_sub_field('logo') ?>" alt="">
-                            </div>
-
-						<?php endwhile; ?>
+                    <div class="px-4 md:px-8 w-1/2 lg:w-1/3 mb-4">
+                        <img src="<?php the_sub_field('logo') ?>" alt="">
                     </div>
-                </div>
+
+				<?php endwhile; ?>
             </div>
 		<?php endif; ?>
     </div>

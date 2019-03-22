@@ -1,6 +1,6 @@
 <section class="bg-grey-lightest has-content pb-48" data-anchor="#about">
     <div class="container container--left-offset px-2">
-        <h2 class="text-3xl text-black font-normal mb-8 max-w-mld leading-tight">
+        <h2 class="text-3xl font-normal mb-8 max-w-mld leading-tight">
             <?php the_field('myself_title') ?>
         </h2>
 
@@ -12,7 +12,7 @@
             </div>
 
 			<?php if (have_rows('myself_items')) : ?>
-                <div class="w-full lg:w-3/4 pl-12">
+                <div class="w-full lg:w-3/4 pl-12 leading-loose">
                     <div class="flex flex-wrap -ml-12">
 						<?php while (have_rows('myself_items')) : the_row(); ?>
                             <div class="pl-12 xl:pr-24 w-full md:w-1/2 mb-4 md:mb-0">
