@@ -54,7 +54,7 @@
             </div>
         </div>
 
-        <div class="mt-8 font-bold text-4xl">
+        <div class="mt-8 font-bold text-2xl lg:text-4xl">
             <?php the_field('myself_conclusion') ?>
         </div>
     </div>

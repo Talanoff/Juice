@@ -22,6 +22,10 @@
       @apply items-center;
     }
 
+    .button {
+      @apply .py-3;
+    }
+
     #nav a {
       @apply my-4;
 

@@ -4,6 +4,7 @@
 
 body {
   @apply font-sans text-grey-darkest leading-normal overflow-x-hidden;
+  padding: 0 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
