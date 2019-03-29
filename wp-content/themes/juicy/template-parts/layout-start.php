@@ -1,5 +1,5 @@
 <section id="start" class="bg-black text-white min-h-screen flex flex-col justify-center" data-anchor="#start">
-    <div class="container container--left-offset relative z-10">
+    <div class="container container--left-offset relative z-10 flex flex-col justify-center">
         <h1 class="text-4xl lg:text-6_5xl xl:text-7xl font-bold leading-tight mb-12"><?php the_field('start_title') ?></h1>
 
         <div class="quote quote--small text-lg">
@@ -10,7 +10,7 @@
             <button class="button" data-modal>Let's Grow</button>
         </div>
 
-        <div class="additional additional--bottom">
+        <div class="additional additional--bottom opacity-40">
             scroll
         </div>
     </div>

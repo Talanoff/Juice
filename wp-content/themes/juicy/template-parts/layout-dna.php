@@ -12,7 +12,7 @@
                     <h3 class="text-6xl"><?php the_sub_field('heading') ?></h3>
                     <p class="opacity-80"><?php the_sub_field('title') ?></p>
                     <hr class="border-b border-pink my-4 md:my-8">
-                    <p class="opacity-80"><?php the_sub_field('description') ?></p>
+                    <p class="opacity-80 leading-loose"><?php the_sub_field('description') ?></p>
                 </div>
 
 				<?php endwhile; ?>

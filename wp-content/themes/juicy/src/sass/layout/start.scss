@@ -1,25 +1,27 @@
 #start {
-  padding: 120px 0 180px;
+  padding: 120px 0;
 
+	/*
   &::after {
     @apply absolute pin-l pin-b bg-grey-lightest;
     width: 75%;
     height: 90px;
     content: '';
   }
+	*/
 
   .container {
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 240px);
 
-    &::after {
-      position: absolute;
-      left: 10px;
-      height: 120px;
-      width: 1px;
-      background: linear-gradient(to bottom, #fff 0%, #fff 50%, #262626 50%, #262626 50%);
-      content: '';
-      bottom: -150px;
-    }
+	  &::before {
+		  position: absolute;
+		  left: 10px;
+		  height: 120px;
+		  width: 1px;
+		  background: linear-gradient(to bottom, #fff 0%, #fff 50%, #262626 50%, #262626 50%);
+		  content: '';
+		  bottom: -180px;
+	  }
   }
 
   .section-background {

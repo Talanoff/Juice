@@ -1,7 +1,7 @@
 <section id="clients" class="py-0" data-anchor="#clients">
     <div class="container text-center px-2">
         <h2 class="text-3xl lg:text-4xl max-w-lg mx-auto"><?php the_field('clients_title') ?></h2>
-        <h3 class="text-xl lg:text-2xl"><?php the_field('clients_subtitle') ?></h3>
+        <h3 class="text-xl lg:text-2xl font-normal"><?php the_field('clients_subtitle') ?></h3>
     </div>
 
 	<?php if (have_rows('clients_items')) : ?>

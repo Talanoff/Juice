@@ -1,6 +1,6 @@
 <section id="about" data-anchor="#about">
     <div class="container container--left-offset relative z-10">
-        <div class="additional additional--top"><?php the_field('how_small_title') ?></div>
+        <div class="additional additional--top opacity-50"><?php the_field('how_small_title') ?></div>
         <h2 class="text-4xl lg:text-7xl text-black mb-6 leading-none"><?php the_field('how_title') ?></h2>
         <h4 class="text-xl lg:text-3xl max-w-lg leading-normal"><?php the_field('how_subtitle') ?></h4>
     </div>
